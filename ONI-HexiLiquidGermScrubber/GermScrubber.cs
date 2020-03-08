@@ -33,8 +33,8 @@ namespace ONI_HexiLiquidGermScrubber
     {
         public static void Prefix(Db __instance)
         {
-            List<string> list = new List<string>(Techs.TECH_GROUPING["MedicineIV"]) { HexiLiquidGermScrubberConfig.ID };
-            Techs.TECH_GROUPING["MedicineIV"] = list.ToArray();
+            List<string> list = new List<string>(Techs.TECH_GROUPING["MedicineII"]) { HexiLiquidGermScrubberConfig.ID };
+            Techs.TECH_GROUPING["MedicineII"] = list.ToArray();
         }
     }
 
